@@ -1,18 +1,23 @@
-## Getting Started
+# Aplicação Java 21 com JDBC e MySQL
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Esta aplicação Java 21 demonstra a integração com um banco de dados MySQL usando JDBC, seguindo o padrão DAO (Data Access Object) para as entidades Seller (Vendedor) e Department (Departamento). A aplicação realiza operações CRUD (Create, Read, Update, Delete) e consultas específicas para manipular dados no banco.
 
-The workspace contains two folders by default, where:
+## Requisitos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Java 21 ou superior
+- MySQL
+- MySQL Workbench
+- Biblioteca JDBC
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Configuração do Banco de Dados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Crie um banco de dados chamado `nome_do_banco` utilizando o MySQL Workbench.
+2. Execute o script SQL fornecido para criar as tabelas Seller e Department.
 
-## Dependency Management
+## Configuração da Aplicação
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Abra o projeto em seu ambiente de desenvolvimento compatível com Java 21.
+2. Certifique-se de ter a biblioteca JDBC no classpath.
+3. Atualize as configurações de conexão com o banco de dados no arquivo.
